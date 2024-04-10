@@ -7,10 +7,94 @@
         <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
+        <!-- Font Folder -->
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+        <!-- Font CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Sen:wght@400..800&display=swap"
+            rel="stylesheet"
+        />
+
         <!-- Style CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body>
-        <h1>Project 02</h1>
+    <body style="height: 5000px">
+        <!-- Header -->
+        <header class="header fixed">
+            <div class="main-content">
+                <div class="body">
+                    <!-- Logo -->
+                    <a href="#!" class="logo">
+                        <img src="./assets/img/Logo.svg" alt="Lesson." />
+                    </a>
+                    <!-- Menu -->
+                    <nav class="menu">
+                        <ul>
+                            <li class="active">
+                                <a href="#!">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!">Courses</a>
+                            </li>
+                            <li>
+                                <a href="#!">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#!">Reviews</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="" class="btn btn-sign-up">Sign Up</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <!-- Hero -->
+            <div class="hero-wrap">
+                <div class="main-content">
+                    <div class="hero">
+                        <div class="hero-left">
+                            <div class="hero-banner"></div>
+                            <div class="box-courses"></div>
+                        </div>
+                        <div class="hero-right">
+                            <h1 class="title">
+                                Learn without limits and spread knowledge.
+                            </h1>
+                            <p class="desc">
+                                Build new skills for that “this is my year”
+                                feeling with courses, certificates, and degrees
+                                from world-class universities and companies.
+                            </p>
+                            <div class="cta-group">
+                                <a href="#!" class="btn btn-hero"
+                                    >See Courses</a
+                                >
+                                <button class="watch-video">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/img/icon play.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <span>Watch Video</span>
+                                </button>
+                            </div>
+                            <p class="interact">Recent engagement</p>
+                            <div class="row row-interact">
+                                <strong>50K</strong>
+                                <p>Students</p>
+                                <strong>70+</strong>
+                                <p>Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
