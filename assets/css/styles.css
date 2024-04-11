@@ -120,6 +120,7 @@ a {
     margin-right: 230px;
     border-radius: 20px;
     object-fit: cover;
+    vertical-align: bottom;
 }
 
 .hero-wrap .box-summary {
@@ -258,6 +259,135 @@ button.watch-video span {
     line-height: 1.22727;
 }
 
-.hero-right strong.data-hero:first-of-type{
+.hero-right strong.data-hero:first-of-type {
     margin-left: 0;
+}
+
+/* ========= Popular ========= */
+.popular {
+    margin-top: 150px;
+    padding: 50px 0;
+}
+
+.popular .title .sub-title {
+    color: #171100;
+    font-family: "Sen", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.26316;
+    letter-spacing: -0.076rem;
+}
+
+.popular .title .desc {
+    width: 458px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    line-height: 1.66667;
+    margin-top: 16px;
+}
+
+.popular .body .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular .body .icon .pre,
+.popular .body .icon .next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 13px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.popular .body .icon .pre {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.popular .body .icon .next {
+    margin-left: 18px;
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.popular .body .icon button:hover{
+    background: var(--primary-color);
+    color: #fff;
+}
+
+/* List Product */
+
+.popular .list-product {
+    display: flex;
+    margin-top: 55px;
+    flex: 1;
+    gap: 30px;
+}
+
+.popular .list-product .item {
+    border-radius: 12px;
+    border: 1px solid #e2dfda;
+}
+
+.popular .list-product .item:hover {
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid #fff;
+}
+
+.list-product .item .info {
+    padding: 16px 22px 22px;
+}
+
+.list-product .item .info .box-title {
+    display: flex;
+    align-items: center;
+}
+
+.list-product .item .info .title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66667;
+    margin-right: auto;
+}
+
+.list-product .item .info .vote {
+    color: #fea31b;
+    font-size: 1.6rem;
+    margin-left: 6px;
+}
+
+.list-product .item .info .desc {
+    color: #5f5b53;
+    font-size: 1.4rem;
+    line-height: 1.85714;
+    margin-top: 6px;
+}
+
+.list-product .thumb {
+    width: calc(100% + 2px);
+    margin: -1px;
+    object-fit: cover;
+    height: 278px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.list-product .box-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-product .box-price .price {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66667;
+}
+
+.list-product .box-price .btn-popular:hover {
+    background: var(--primary-color);
 }
